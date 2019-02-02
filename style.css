@@ -1,0 +1,46 @@
+html, body {
+   margin: 0; padding: 0;
+   box-sizing: border-box;
+  }
+  .milky-way {
+  background-image: url('img/milky-way.png');
+  background-attachment: fixed;
+  background-size: contain;
+  background-position: top center;
+  width: 100vw;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.blue-marble {
+  background-image: url('img/blue-marble.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: top center;
+  position: absolute;
+  bottom: 150px;
+  left: 150px;
+  height: 30vh;
+  width: 30vh;
+  
+}
+
+.mirror-ball {
+  background-image: url('img/mirror-ball.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: top center;
+  position: absolute;
+  right: 300px;
+  top: 130px;
+  height: 10vh;
+  width: 10vh;
+}
+
+.intro, .outro {
+ color: black;
+ padding: 100px 20px;
+}
